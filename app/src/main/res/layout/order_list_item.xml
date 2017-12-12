@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/nameCommande"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/checked"
+        android:layout_toStartOf="@+id/checked"
+        android:text="TextView"
+        android:textColor="#3a3939"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/date_commande"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nameCommande"
+        android:layout_alignStart="@+id/nameCommande"
+        android:layout_below="@+id/nameCommande"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/checked"
+        android:layout_toStartOf="@+id/checked"
+        android:text="TextView"
+        android:textColor="#777575"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/checked"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/date_commande"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/nameCommande"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/notchecked" />
+</RelativeLayout>

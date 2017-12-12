@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Odoo</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mot de Passe</string>
+    <string name="action_sign_in">Connexion</string>
+    <string name="action_sign_in_short">Connexion</string>
+    <string name="error_invalid_email">Cette adresse invalide</string>
+    <string name="error_invalid_password">Ce mot de passe est trop court</string>
+    <string name="error_incorrect_password">Email / mot de passe est incorrect</string>
+    <string name="error_field_required">Ce champ est obligatoir</string>
+    <string name="error_signin">Problem de connexoin</string>
+    <string name="close">Fermer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="scan_bar_code">Appuyez sur l\'écran pour scanner le code a barre</string>
+    <string name="code">Code :</string>
+    <string name="barcode">Code a barre :</string>
+    <string name="type">Type :</string>
+    <string name="product_name">Nom :</string>
+    <string name="qty">Quantité :</string>
+    <string name="next">Suivant</string>
+    <string name="no_commande">Aucune Commande</string>
+    <string name="no_product">Aucune Produit</string>
+</resources>
